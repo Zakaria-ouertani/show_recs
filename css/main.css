@@ -1,0 +1,27 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.categories{
+    border-style: solid;
+    border-width: 2px;
+    font-size: 25px;
+    /* height: 5cm; */
+    text-align: center;
+    border-radius: 10px;
+    padding: 2cm 0;
+    cursor: pointer;
+}
+
+.categories:hover{
+    transition: .2s;
+    color: white;
+    background-color: black;
+}
+
+.categories_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.5cm;
+    row-gap: 1.5cm;
+}
