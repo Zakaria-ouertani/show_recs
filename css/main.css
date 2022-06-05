@@ -2,26 +2,58 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.categories{
-    border-style: solid;
-    border-width: 2px;
-    font-size: 25px;
-    /* height: 5cm; */
-    text-align: center;
-    border-radius: 10px;
-    padding: 2cm 0;
-    cursor: pointer;
+html{
+    background-color: #121212;
 }
 
-.categories:hover{
-    transition: .2s;
+h1{
     color: white;
-    background-color: black;
 }
 
 .categories_grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 1.5cm;
-    row-gap: 1.5cm;
+    grid-template-columns: 1fr 1fr;
 }
+
+.categories{
+    text-align: center;
+    font-size: 2em;
+    border: 0 solid;
+    border-radius: 10px;
+    margin: .5em;
+    padding: 1em 0;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 0% 20%; 
+    transition: .1s;
+    cursor: pointer;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.categories:hover{
+    border-radius: 20px 20px 10px 20px;
+    box-shadow:3px 3px 10px .5px black inset;
+    filter: blur(1px);
+}
+.category_text{
+    filter: blur(0);
+}
+
+#c_mov{
+    background-image: url("../imgs/amadeus.jpg");
+}
+
+#c_ser{
+    background-image: url("../imgs/meth.jpg");
+}
+
+#c_bok{
+    background-image: url("../imgs/sisyphus.jpg");
+}
+
+#c_mag{
+    background-image: url("../imgs/one.jpg");
+}
+
