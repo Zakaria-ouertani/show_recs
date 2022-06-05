@@ -9,10 +9,10 @@ html{
 h1{
     color: white;
 }
-
 .categories_grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
 }
 
 .categories{
@@ -41,8 +41,9 @@ h1{
     filter: blur(0);
 }
 
-#c_mov{
-    background-image: url("../imgs/amadeus.jpg");
+
+#c_flm{
+    background-image: url("../imgs/amadeus_half.jpg");
 }
 
 #c_ser{
@@ -57,9 +58,9 @@ h1{
     background-image: url("../imgs/one.jpg");
 }
 #c_anm{
-    background-image: url("../imgs/gogeta.png");
+    background-image: url("../imgs/gogeta.jpg");
 }
-#c_nov{
+#c_gam{
     background-image: url("../imgs/zidan.jpg");
 }
 
