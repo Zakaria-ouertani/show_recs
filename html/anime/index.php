@@ -5,7 +5,7 @@
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/subcategories.css">
+  z      <link rel="stylesheet" href="css/subcategories.css">
         <title>Anime</title>
     </head>
     <body>

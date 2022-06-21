@@ -1,6 +1,12 @@
-<header>
-    <div class="header_buttons_grid">
-        <a href="index.php" class="header_buttons"><p>Home</p></a >
-        <a href="html/submit.php" class="header_buttons"><p>Submit new entry</p></a >
-    </div>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/lajmi_new/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
