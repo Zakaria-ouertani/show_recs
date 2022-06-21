@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <base href="/lajmi_new/">
         <meta charset='utf-8'>
-        <title>Books</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <link rel="stylesheet" href="../../css/header.css">
-        <link rel="stylesheet" href="../../css/subcategories.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/subcategories.css">
+        <title>Books</title>
     </head>
     <body>
-        <header>
-            <div class="header_buttons_grid">
-                <a href="../../index.php" class="header_buttons"><p>Home</p></a >
-                <a href="" class="header_buttons"><p>About</p></a >
-                <a href="../submit.php" class="header_buttons"><p>Submit new entry</p></a >
-                <a href="" class="header_buttons"><p>impsum</p></a >
-            </div>
-        </header>
+        <?php
+            include("../header.php")
+        ?>
         <div class="subcategories_grid">
             <a href="biography.php" class="sub_categories"><p class="subcategory_text">Biography</p></a>
             <a href="classic.php" class="sub_categories"><p class="subcategory_text">Classic</p></a>

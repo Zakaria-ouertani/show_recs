@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <base href="/lajmi_new/">
         <meta charset='utf-8'>
         <title>CUBAAAAAAAA</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -8,14 +9,9 @@
         <link rel="stylesheet" href="css/header.css">
     </head>
     <body>
-        <header>
-            <div class="header_buttons_grid">
-                <a href="" class="header_buttons"><p>Home</p></a >
-                <a href="" class="header_buttons"><p>About</p></a >
-                <a href="html/submit.php" class="header_buttons"><p>Submit new entry</p></a >
-                <a href="" class="header_buttons"><p>impsum</p></a >
-            </div>
-        </header>
+        <?php
+            include("html/header.php")
+        ?>
         <div class="categories_grid">
             <a href="html/films/index.php" class="categories" id="c_flm"><p class="category_text">Films</p></a>
             <a href="html/series/index.php" class="categories" id="c_ser"><p class="category_text">Series</p></a>
