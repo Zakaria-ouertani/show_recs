@@ -12,7 +12,7 @@
             <div class="header_buttons_grid">
                 <a href="" class="header_buttons"><p>Home</p></a >
                 <a href="" class="header_buttons"><p>About</p></a >
-                <a href="" class="header_buttons"><p>lorem</p></a >
+                <a href="html/submit.php" class="header_buttons"><p>Submit new entry</p></a >
                 <a href="" class="header_buttons"><p>impsum</p></a >
             </div>
         </header>
