@@ -10,32 +10,39 @@
     </head>
     <body>
         <?php
-            include("header.php")
+            include("header.php");
         ?>
-        <form action="POST">
-                <label for="name">Name</label><br>
-                <input type="text" placeholder="Name"><br>
+
+        <form action="html/db_conn.php" method="POST">
+                <label for="nam">Name</label><br>
+                <input type="text" name="nam" placeholder="Name"><br>
                 <div class="line"></div>
-                <label for="categ">Category</label><br>
-                <select name="categ">
+
+                <label for="cat">Category</label><br>
+                <select name="cat">
                     <option value="dft"></option>
-                    <option value="anm">Anime</option>
-                    <option value="bok">Books</option>
-                    <option value="flm">Films</option>
-                    <option value="gms">Games</option>
-                    <option value="mng">Manga</option>
-                    <option value="ser">Series</option>
+                    <option value="anime">Anime</option>
+                    <option value="books">Books</option>
+                    <option value="films">Films</option>
+                    <option value="games">Games</option>
+                    <option value="manga">Manga</option>
+                    <option value="series">Series</option>
                 </select>
                 <div class="line"></div>
-                <label for="genre">Genre</label><br>
-                <input type="text" placeholder="Genre">
+
+                <label for="gen">Genre</label><br>
+                <input type="text" name="gen" placeholder="Genre">
                 <div class="line"></div>
-                <label for="description">Description</label><br>
-                <textarea name="description" id="desc" placeholder="Description" rows="3    "></textarea>
+                
+                <label for="des">Description</label><br>
+                <textarea name="des" id="desc" placeholder="Description" rows="3"></textarea>
                 <div class="line"></div>
+                
                 <label for="fwl">Fandom/Wiki link</label><br>
-                <input type="text" placeholder="Fandom/Wiki link">
+                <input type="text" name="fwl" placeholder="Fandom/Wiki link">
                 <div class="line"></div>
+                
+                <input  class="btns" type="submit" name="Submit"> <input class="btns" type="reset">
         </form>
     </body>
 </html>

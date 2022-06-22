@@ -52,6 +52,31 @@ input[type=text]::placeholder,textarea::placeholder{
     border-color: #ad0303;
 }
 
+.btns{
+    cursor: pointer;
+    width: 3cm;
+    height: 1.5cm;
+    box-shadow:-3px 3px 0px .5px #c7c7c7;
+    margin-left: 1em;
+    margin-bottom: 1cm;
+    border-radius: 90em;
+    background-color: #1f1f1f;
+    color: white;
+    transition: .1s;
+    font-size: 1em;
+    border: none;
+}
+
+.btns:hover{
+    box-shadow:-3px 3px 5px 3px #121212;
+
+}
+
+.btns:active{
+    box-shadow:-3px 3px 10px 1px #c7c7c7;
+    
+}
+
 @media only screen and (max-width: 600px) {
     label{
         font-size: 1.2em;
@@ -59,14 +84,12 @@ input[type=text]::placeholder,textarea::placeholder{
     
     input[type=text],select, textarea{
         width: 70%;
-        /* padding: 1em 1.1em;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        background-color: #1f1f1f;
-        color: white;
-        transition: .1s; */
+        padding: .9em 1em;
+
+    }
+    .btns{
+        font-size: .9em;
+        width: 2cm;
+        height: 1.2cm;
     }
 }
