@@ -14,13 +14,12 @@
         ?>
 
         <form action="html/db_conn.php" method="POST">
-                <label for="nam">Name</label><br>
-                <input type="text" name="nam" placeholder="Name"><br>
+                <label for="nam">Name*</label><br>
+                <input type="text" name="nam" placeholder="Name" required required><br>
                 <div class="line"></div>
 
-                <label for="cat">Category</label><br>
-                <select name="cat">
-                    <option value="dft"></option>
+                <label for="cat">Category*</label><br>
+                <select name="cat" required>
                     <option value="anime">Anime</option>
                     <option value="books">Books</option>
                     <option value="films">Films</option>
@@ -30,20 +29,20 @@
                 </select>
                 <div class="line"></div>
 
-                <label for="dat">Release / Publish Date</label><br>
-                <input type="date" name="dat" placeholder="yyyy-mm-dd"><br>
+                <label for="dat">Release / Publish Date*</label><br>
+                <input type="date" name="dat" placeholder="yyyy-mm-dd" required><br>
                 <div class="line"></div>
 
-                <label for="gen">Genre</label><br>
-                <input type="text" name="gen" placeholder="Genre">
+                <label for="gen">Genre*</label><br>
+                <input type="text" name="gen" placeholder="Genre" required>
                 <div class="line"></div>
                 
-                <label for="des">Description</label><br>
-                <textarea name="des" id="desc" placeholder="Description" rows="3"></textarea>
+                <label for="des">Description*</label><br>
+                <textarea name="des" id="desc" placeholder="Description" rows="3" required></textarea>
                 <div class="line"></div>
 
-                <label for="sit">Official website / Source Code repo</label><br>
-                <input type="text" name="sit" placeholder="Official website / Source Code repo">
+                <label for="sit">Official website / Source Code repo*</label><br>
+                <input type="text" name="sit" placeholder="Official website / Source Code repo" required>
                 <div class="line"></div>
 
                 <label for="fwl">Fandom/Wiki link</label><br>

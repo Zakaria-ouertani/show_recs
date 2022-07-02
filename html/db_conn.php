@@ -27,20 +27,20 @@
             $fwl = $_REQUEST['fwl'];
             $sit = $_REQUEST['sit'];
             $dat = date('Y-m-d',strtotime($_REQUEST['dat']));
-            $req = array($nam,$gen,$cat,$des,$sit,$dat);
+            // $req = array($nam,$gen,$cat,$des,$sit,$dat);
 
-            $err = false;
+            // $err = false;
 
-            foreach ($req as $field) {
-                if (empty($field)) {
-                    $err = true;
-                    break;
-                }
-            }
-            if ($err) {
-                echo "<h2>FILL REQUIRED FIELDS</h2>";
-            }  
-            else {
+            // foreach ($req as $field) {
+            //     if (empty($field)) {
+            //         $err = true;
+            //         break;
+            //     }
+            // }
+            // if ($err) {
+            //     echo "<h2>FILL REQUIRED FIELDS</h2>";
+            // }  
+            // else {
                 $sql = "INSERT INTO $cat VALUES ('$nam','$des','$gen','$fwl')";
                         
                 if (mysqli_query($conn, $sql)) {
@@ -50,7 +50,7 @@
                     echo "ERROR: Hush! Sorry $sql. "
                         . mysqli_error($conn);
                 }
-            }
+            // }
 
             echo $dat;
             // Close connection
