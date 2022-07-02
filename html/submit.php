@@ -30,6 +30,10 @@
                 </select>
                 <div class="line"></div>
 
+                <label for="dat">Release / Publish Date</label><br>
+                <input type="date" name="dat" placeholder="yyyy-mm-dd"><br>
+                <div class="line"></div>
+
                 <label for="gen">Genre</label><br>
                 <input type="text" name="gen" placeholder="Genre">
                 <div class="line"></div>
@@ -37,7 +41,11 @@
                 <label for="des">Description</label><br>
                 <textarea name="des" id="desc" placeholder="Description" rows="3"></textarea>
                 <div class="line"></div>
-                
+
+                <label for="sit">Official website / Source Code repo</label><br>
+                <input type="text" name="sit" placeholder="Official website / Source Code repo">
+                <div class="line"></div>
+
                 <label for="fwl">Fandom/Wiki link</label><br>
                 <input type="text" name="fwl" placeholder="Fandom/Wiki link">
                 <div class="line"></div>
